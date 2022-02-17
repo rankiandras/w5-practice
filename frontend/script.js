@@ -276,12 +276,17 @@ function loadEvent() {
     
     rootElement.insertAdjacentHTML(`beforeend`, card(movies[0]));
  */    
-/*     for (const movieSend of movies) {
+/*  
+    for (const movieSend of movies) {
         rootElement.insertAdjacentHTML(`beforeend`, card(movieSend));
     }
-/*  */    for (const movieSend of movies) {
+*/
+
+/* 
+    for (const movieSend of movies) {
         rootElement.insertAdjacentHTML(`beforeend`, card2(movieSend));
     }
+ */    
 };
 
 window.addEventListener(`load`, loadEvent);
